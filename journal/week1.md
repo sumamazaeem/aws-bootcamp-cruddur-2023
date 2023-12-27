@@ -38,3 +38,51 @@ image cannot be deleted unless container is removed.
 Now getting the basic understanding about the working and commands and thee philospohy about the docker, I resumed the BootCamp.
 latest is by default stage.
 I run the backend flask aplication and wrote a dockerfile.
+when the application was run, it faced the problem as it was not showing anything on the public url. the reason was that the environment variables in the dockerfile were not setup. the ways to resolve this thing is using docker exec or using by attaching the shell to a running container
+
+now I edited the app.py file and used -e to set the environment variable
+the command will be
+docker run -rm -p 4567:4567 -it -e FRONTEND_URL='*' -e BACKEND_URL='*' backend-flask
+
+Then I installed the npm in the frontend folder.
+I write a dockerfile and make dockercompaose in the rootfolder.
+what is meant by dockercomposee, this command rund the both containers simulanesusly.
+
+Week-1 Container Pricing by Chiraj Nayar.
+I learned about the pricing about the codespaces, cloud9 and cloudtrail.
+I learn about the container first strategy
+docker and host configuration
+securing images
+secret management
+application security
+data security
+monitoring containers
+complaince framework
+
+I also learned about the container best practices
+1. keep host and docker updated to the latest securit patches
+2. docker daemon and containers should run in non-root user mode
+3. image vulnerability scanning
+4. trusting a private vs public image registry
+5. no sensitive data in docker file or images
+6. use secret management service to share secrets
+7. read only file system and volume for docker
+8. seperate databases for long term storage
+9. use devsecops practices while building application security
+10. ensure all code is tested for vulnerabilities before production use
+
+I also learned about the snyk opensource security which automatically find and fix vulnerabilities in the code.
+then I learnt about the AWS secret manager and how it is used.
+Alternatively, Hashicorp valut can be used for similar purpose
+For image vulnerability;
+Amazon Inspector can be used which integrates with AWS Ecosystem such as scanning ECS, EC2, ECR
+
+Then I installed Docker on Ubuntu, installing docker engine and then docker desktop.
+I followed the official docker compose getting started tutorial.
+I learned nano and vim for learning.
+I run the container, wrote the docker compose file, attached the volume and removed the containers afterwards
+for the opensource version, clair can be used
+
+I learned about the openAPI, swagger, watched a few youtube videos and learned the concepts of openAPI
+
+I learned about the DynamoDB local configuration
