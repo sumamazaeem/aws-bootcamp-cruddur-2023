@@ -86,3 +86,7 @@ for the opensource version, clair can be used
 I learned about the openAPI, swagger, watched a few youtube videos and learned the concepts of openAPI
 
 I learned about the DynamoDB local configuration
+
+I learned about the git rebase, fast forward merge and how to resolve. I mistakenly pushed on 2ns device without syncing so i learned about advance git options for this sort of problem
+
+Rest of the week 1, I followed the code as usual given and follow all tasks
