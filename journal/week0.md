@@ -1,7 +1,7 @@
 # Week 0 — Billing and Architecture
 
 ## Basic Learning
-Commenced this bootcamp on December 16th, 2023. During this period, I gained insights into the following:
+Commenced this bootcamp. During this period, I gained insights into the following:
 - AWS Well-Architected Framework
 - TOGAF (basic understanding)
 - c4model.com
